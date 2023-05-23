@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>인재모집</title>
+	<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+<style>
+	@font-face{font-family:"GmarketSans_L";src:url("font/GmarketSansTTFLight.ttf");}
+	@font-face{font-family:"GmarketSans_M";src:url("font/GmarketSansTTFMedium.ttf");}
+	@font-face{font-family:"GmarketSans_B";src:url("font/GmarketSansTTFBold.ttf");}
+	@font-face{font-family:"NanumSquare";src:url("font/NanumSquare.ttf");}
+	@font-face{font-family:"NanumSquare_L";src:url("font/NanumSquare_acL.ttf");}
+	@font-face{font-family:"NanumSquare_R";src:url("font/NanumSquare_acR.ttf");}
+	
+	body{margin:0px;}
+	li{list-style: none;margin: 0;padding:0;}
+	.wrap {width: 860px; overflow: hidden; }
+
+/* article_cover */
+	article.cover{width:calc(100% - 60px);
+		 height:calc(100% - 60px);background:#f5f5f5; overflow:hidden;padding:30px;}
+	article.cover img{float:right;width:195px;height:100%;}
+	article.cover p.title{float:left;width:100%;padding:80px 0 120px 0;margin:0;font-family:"GmarketSans_B", 'serif';font-size:46px;font-weight:bold;line-height:50px;letter-spacing:-0.3px;background-image:url(images/job-search.png);background-repeat:no-repeat;background-position-x:right;background-position-y:bottom;background-size:180px;}
+	
+	article.cover p.title span{color:#f77c1e;}	
+	article.cover p.title_sub{position:relative;float:left;font-family:"GmarketSans_M", 'serif';font-size:14px;width:71%;min-width:532px;word-break:keep-all;line-height:24px;margin:0; /* font-weight: bold; */}
+
+
+
+/* article_chapter01 */
+	article.chapter_01 p{width:100%;text-align:center;font-family:"GmarketSans_B", 'serif';color:#7586db;font-size:37px; letter-spacing: 3px; overflow: hidden;}
+	article.chapter_01 hr{border-bottom:1px solid #000; width:70px;}
+	article.chapter_01 ul{margin:50px 0;}
+
+	article.chapter_01 ul li:nth-child(2),article.chapter_01 ul li:nth-child(3),article.chapter_01 ul li:nth-child(4)
+	{font-size:16px; font-family:"GmarketSans_M";line-height:26px; margin-left: 30px; letter-spacing: -1px;}
+
+	article ul li.chapter_title{font-family:"GmarketSans_B", 'serif';font-size:23px; margin:0 0 30px 0;}
+
+/* article_chapter02 */
+	article.chapter_02 {font-family: "GmarketSans_M", 'serif'; margin:50px auto; padding: 0 0 0 40px;  overflow: hidden;}
+	article.chapter_02 .chapter_title {font-family:"GmarketSans_B", 'serif';font-size:23px; margin:0 0 30px 0;}
+	article.chapter_02 p.job {font-family:"GmarketSans_B",'serif';font-weight: bold; font-size: 20px;  color: #0c1063; padding-left: 30px; margin: 0;}
+	article.chapter_02 span.line {width: 84%; display: block; height: 2px; background-color: #000; margin-left:30px;}
+	article.chapter_02 ul{margin: 30px 0; font-size: 14px;font-family:"GmarketSans_M",'serif';}
+	article.chapter_02 ul li:nth-child(1){margin: 20px 0; font-size: 18px; font-weight: bold;}
+	article.chapter_02 ul.first li:nth-child(2) {margin-left: 20px;}
+	article.chapter_02 ul.second li {margin: 5px 60px;}
+	article.chapter_02 ul.second li:nth-child(1) {margin: 20px 0;}
+	article.chapter_02 ul.third li {margin: 5px 60px;}
+	article.chapter_02 ul.third li:nth-child(1) {margin: 20px 0;}
+	article.chapter_02 ul.forth{background: #f4f4f4; width: 80%; padding: 15px; margin-top: 20px; margin-left: 30px;}
+	article.chapter_02 ul.forth li{margin-left: 340px; margin-bottom: 4px;}
+	article.chapter_02 ul.forth li:nth-child(2){margin-top: -18px;}
+	article.chapter_02 ul.forth li:first-child {margin: 0; display: block;}
+
+/* article_chapter03 */
+	article.chapter_03  {font-family: "GmarketSans_M", 'serif';
+    margin: 50px auto; padding: 0 0 0 40px;  overflow: hidden;}
+	article.chapter_03 .chapter_title {font-family:"GmarketSans_B", 'serif'; font-size:23px; margin:0 0 30px 0;}
+/* 	article.chapter_03 ul {width: 80%; font-size: 12px; font-family:"GmarketSans_M", 'serif'; margin-left: 50px; overflow: hidden;}
+	article.chapter_03 ul li {width: 20%; float: left; margin-right: 20px; margin-bottom: 70px; text-align: center; margin-top: 20px;}
+	article.chapter_03 ul li img {margin-bottom: 5px;}
+	article.chapter_03 ul li:nth-child(4) img {margin-top: -11px;}
+	article.chapter_03 ul li:nth-child(7) img {margin-top: -19px;}
+	article.chapter_03 ul li:nth-child(8) img {margin-top: -19px; margin-left: 18px;} */
+    article.chapter_03 ul {width: 85%; font-size: 12px; font-family:"GmarketSans_M", 'serif';  overflow: hidden; text-align: center;}
+    article.chapter_03 ul li:nth-child(6) {margin-right: 0;}
+    article.chapter_03 ul li {float: left; width: 18%; margin-top: 70px;}
+    article.chapter_03 ul li img{margin-top: -30px; }
+    article.chapter_03 ul li .txt {margin-top: -10px;}
+    article.chapter_03 ul li:nth-child(4) img{margin-top: -42px;}
+    article.chapter_03 ul li:nth-child(5) img{margin-top: -16px;}
+    article.chapter_03 ul li:nth-child(6){margin-left: 56px;}
+    article.chapter_03 ul li:nth-child(8) img {margin-top: -47px;}
+    article.chapter_03 ul li:nth-child(9) img {margin-top: -53px; margin-left: 18px;}
+
+
+
+
+/* article_chapter04 */
+	article.chapter_04{margin: 50px auto; padding: 0 0 0 40px; overflow: hidden;}
+	article.chapter_04 .chapter_title {font-family:"GmarketSans_B", 'serif'; font-size:23px; margin:0 0 30px 0;}
+	article.chapter_04 ul {display: flex; margin-left: 50px; font-family:"GmarketSans_M", 'serif'; font-size: 16px;}
+	article.chapter_04 ul li{float: left; width: 15%; padding: 50px 6px;  background: #fce9da; border-radius:50%; margin-right: 17px; text-align: center; }
+	article.chapter_04 ul li:nth-child(2),article.chapter_04 ul li:nth-child(4),article.chapter_04 ul li:nth-child(6){width: 3px; padding: 0; border: none; background: none; margin-top: 7%; margin-right: 16px;}
+	article.chapter_04 ul li:nth-child(7) {background: #ed761b; color: #fff;}
+	article.chapter_04 .text {float: right; margin-right: 125px; font-family: "NanumSquare_R", 'serif'; font-size: 12px;}
+
+/* article_chapter05 */
+	article.chapter_05{margin: 50px auto; padding: 0 0 0 40px; overflow: hidden;}
+	article.chapter_05 .chapter_title {font-family:"GmarketSans_B", 'serif';font-size:23px; margin:0 0 30px 0;}
+	article.chapter_05 ul.method{font-size:16px;font-family:"GmarketSans_M", 'serif';line-height:26px;}
+
+	article.chapter_05 .square {width: 680px; background: #fceded; display: inline-block; font-family: "NanumSquare_R", 'serif'; margin-left: 36px; color: #7f3131; padding-top: 10px;}
+	article.chapter_05 .square .sub_title {float: left; font-family:"GmarketSans_M", 'serif'; margin-top: 10px; margin-left: 10px;} 
+	article.chapter_05 .square ul.important {float: right; margin-top: 10px; font-size: 14px; margin-right: 26px; }
+	article.chapter_05 .square ul.important li {margin-bottom: 3px;}
+
+
+</style>
+</head>
+
+<body>
+	<div class="wrap">
+		<article class="cover">
+			<img src="images/logo.png">
+			
+			<p class="title">아트만 파트너스와 함께 할<br>
+			<span>유능한 인재</span>를 모십니다.</p>
+	
+			<p class="title_sub">ATMAN Partners(아트만파트너스)는 Business Intelligence 영역의<br>
+			전문가들이 모여 2007년에 설립되었으며, BI 및 ERP, JAVA 기반의 SI와 RPA를 기반으로<br>
+			Digital Workforce Platform 사업을 추진하는 최고의 경쟁력을 보유하고 있는<br>
+			종합 컨설팅/개발 기업입니다.</p>
+		</article>
+			
+		<article class="chapter_01">
+			<p>WE’RE HIRING</p>
+			<hr color="#000000">
+			<ul>
+				<li class="chapter_title">근무조건</li>
+				<li>- 근무형태 : 정규직(수습기간 3개월)</li>
+				<li>- 근무요일/시간 : 주 5일(월~금), 9시 - 18시</li>
+				<li>- 근무지역 : 서울시 강남구 논현로76길 27 3층(역삼동, 에이포스 빌딩)</li>
+			</ul>
+		</article>
+			
+		<article class="chapter_02">
+			<p class="chapter_title">채용직군</p>
+			<p class="job">RPA 경력사원 모집(10명)</p>
+			<span class="line"></span>
+			<ul class="first">
+				<li class="tit">업무영역</li>
+				<li>- DT & RPA - 업무자동화 개발 및 운영 업무 [ Automation Anywhere, Brity Works ]</li>
+			</ul>
+			<ul class="second">
+				<li class="tit">지원자격</li>
+				<li>ㆍ경력 :경력 1년 이상</li>
+				<li>ㆍWeb 개발(HTML, CSS 등) 기초지식 보유자</li>
+				<li>ㆍJava 프론트엔드, 백엔드, React 등 교육이수자 및 경험자</li>
+				<li>ㆍC#, C++, Python 기초교육 이수자 or 개발 경험자</li>
+				<li>ㆍAPI 연동, 서버 개발, 보안에 경험자</li>
+				<li>ㆍDigital Transformation 분야에 관심이 있으신 분</li>
+				<li>ㆍ다수 프레임워크 기술분야에 유연하게 접근할 수 있는 능력 보유자</li>
+				<li>ㆍPostgreSQL , MSSQL, Oracle 등 관계형 Database 지식 및 경험자</li>
+			</ul>
+			<ul class="third">
+				<li class="tit">우대사항</li>
+				<li>ㆍ해당직무 근무경험 및 솔루션 Certificate 보유자</li>
+				<li>ㆍ컴퓨터/시스템공학 전공</li>
+				<li>ㆍ정보처리기사, 정보처리산업기사</li>
+			</ul>
+			<span class="line"></span>
+			<ul class="forth">
+				<li class="tit">공통 자격요건</li>
+				<li>- 학력 : 무관</li>
+				<li>- 긍정적인 마인드와 유연한 커뮤니케이션 보유자</li>
+				<li>- 능동적이고 빠른 실행력 보유자</li>
+				<li>- 문서 작성과 발표 등 지식 공유활동 경험자</li>
+			</ul>
+		</article>
+			
+		<article class="chapter_03">
+			<p class="chapter_title">복리후생</p>
+			<ul>
+				<li><img src="images/1.knowledge.png" alt=""><p class="txt"><br>자기 개발비<br> 30만원 지원</p></li>
+				<li><img src="images/2.cutlery.png" alt=""><p class="txt"><br>식대지원</p></li>
+				<li><img src="images/3.gift.png" alt=""><p class="txt"><br>생일선물</p></li>
+				<li><img src="images/4.bouquet.png" alt=""><p class="txt"><br>경조사 지원</p></li>
+                <li><img src="images/9.bus.png" alt=""><p class="txt"><br>경기 프로젝트시<br>교통비 지원</p></li>
+				<li><img src="images/5.holiday.png" alt=""><p class="txt"><br>연차,반차,<br>근로자의 날,<br>창립기념일</p></li>
+				<li><img src="images/6.book.png" alt=""><p class="txt"><br>도서 구입비 지원</p></li>
+				<li><img src="images/7.badge.png" alt=""><p class="txt"><br>우수사원 및<br>장기근속상 포상<br>3, 5, 10년차 휴가 및 <br>상품권 지급</p></li>
+				<li><img src="images/8.welcome.png" alt=""><p class="txt"><br>웰컴키트 지급</p></li>
+			</ul>
+		</article>
+		<article class="chapter_04">
+			<p class="chapter_title">채용절차</p>
+			<ul>
+				<li>서류전형</li>
+				<li><img src="images/tri.png" alt=""></li>
+				<li>면접전형</li>
+				<li><img src="images/tri.png" alt=""></li>
+				<li>인적성 검사</li>
+				<li><img src="images/tri.png" alt=""></li>
+				<li>최종합격</li>
+			</ul>
+			<p class="text">합격자만 통보합니다.</p>
+		</article>
+			
+		<article class="chapter_05">
+			<p class="chapter_title">접수기간 및 방법</p>
+			<ul class="method">
+				<li>- 접수기간 : 00월~00월</li>
+				<li>- 지원방법 : 해당 채용사이트 온라인 지원</li>
+				<li>- 제출서류 : 이력서, 자기소개서, 포트폴리오 (개발/디자인 파트는 필수)</li>
+			</ul>
+			<div class="square">
+				<p class="sub_title">※ 유의사항</p>
+				<ul class="important">
+					<li>허위사실 발견 시 채용이 취소될 수 있습니다.</li>
+					<li>모든 절차는 자사의 취업규칙, 근로기준법 및 관련 법규에 따라 진행됩니다.</li>
+					<li>수습기간 동안 역량 및 업무 능력이 현저히 부족하다고 판단될 경우 본 채용을 거부할 수 있습니다.</li>
+					<li>프로젝트 사정에 따라 근무 장소가 변경될 수 있습니다.</li>
+				</ul>
+			</div>
+		</article>
+	</div>
+</body>
+</html>
+   
